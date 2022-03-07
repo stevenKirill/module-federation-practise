@@ -11,3 +11,33 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.home {
+  display: flex;
+  background-color: rgb(67, 165, 42);
+  color: white;
+  justify-content: center;
+  padding: 15px;
+}
+.my-header {
+  margin-bottom: 10px;
+  background-color: coral;
+  padding: 5px;
+}
+.my-header button {
+  font-size: 15px;
+  padding: 5px;
+  border-radius: 3px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  margin: 10px;
+}
+.my-header p {
+  font-size: 17px;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  border-top: 1px solid white;
+  padding-top: 4px;
+}
